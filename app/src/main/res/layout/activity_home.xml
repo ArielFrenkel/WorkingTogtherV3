@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logOut"
+        android:text="sign up"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="new group"
+        android:textSize="20sp"
+        android:id="@+id/btNewGroup"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="new task"
+        android:textSize="20sp"
+        android:id="@+id/btNewTask"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#661AEF"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="participants"
+            android:textSize="12sp"
+            android:id="@+id/btParticipants"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="groups"
+            android:textSize="15sp"
+            android:id="@+id/btGroups"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tasks"
+            android:textSize="15sp"
+            android:id="@+id/btTasks"
+            android:layout_weight="1"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Groups"
+        android:gravity="center"
+        android:id="@+id/tvListViewHeader"
+        android:textSize="30sp"
+        android:background="#72661AEF"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headerTasks"
+        android:orientation="horizontal"
+        android:background="#72661AEF"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tasks"
+            android:gravity="left"
+            android:id="@+id/tvTaskHeader"
+            android:textSize="20sp"
+            android:layout_weight="2"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="change status"
+            android:gravity="left"
+            android:id="@+id/tvCheckbosxHeader"
+            android:textSize="20sp"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvList"
+        android:clickable="true"
+        />
+
+
+</LinearLayout>

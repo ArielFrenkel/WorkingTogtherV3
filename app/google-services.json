@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "898659711114",
+    "project_id": "workingtogtherv3",
+    "storage_bucket": "workingtogtherv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898659711114:android:3025ddc456e2d277459573",
+        "android_client_info": {
+          "package_name": "com.example.workingtogtherv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898659711114-c5o7ugq72550pgf8ce0um8773jpo36ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMaiER_WWLZCe5a6altRb4eXMcosyl49Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898659711114-c5o7ugq72550pgf8ce0um8773jpo36ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
